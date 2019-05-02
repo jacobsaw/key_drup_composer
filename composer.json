@@ -80,7 +80,8 @@
             "drush/Commands/{$name}": ["type:drupal-drush"]
         },
         "symlinks": {
-            "src/config": "drupal/config"
+            "src/config": "drupal/config",
+            "src/themes": "drupal/themes/custom"
         },
         "drupal-scaffold": {
             "initial": {
