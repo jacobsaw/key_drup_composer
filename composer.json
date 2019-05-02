@@ -72,15 +72,15 @@
             "drupal/core": "-p2"
         },
         "installer-paths": {
-            "docroot/core": ["type:drupal-core"],
-            "docroot/libraries/{$name}": ["type:drupal-library"],
-            "docroot/modules/contrib/{$name}": ["type:drupal-module"],
-            "docroot/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drupal/core": ["type:drupal-core"],
+            "drupal/libraries/{$name}": ["type:drupal-library"],
+            "drupal/modules/contrib/{$name}": ["type:drupal-module"],
+            "drupal/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "drupal/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/Commands/{$name}": ["type:drupal-drush"]
         },
         "symlinks": {
-            "src/config": "docroot/config"
+            "src/config": "drupal/config"
         },
         "drupal-scaffold": {
             "initial": {
