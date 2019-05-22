@@ -8,6 +8,7 @@ base theme: bootstrap_barrio
 libraries:
   - key_changes/bootstrap_cdn
   - key_changes/global-styling
+  - key_changes/fonts
 
 regions:
   top_header: 'Top Header'
