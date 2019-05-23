@@ -33,7 +33,7 @@ p {
     color: #D84B68;
 }
 
-#block-key-changes-content {
+article.node--type-page {
     background-color: #262F3E;
     border-radius: 10px;
     padding: 20px 15px 0px;
