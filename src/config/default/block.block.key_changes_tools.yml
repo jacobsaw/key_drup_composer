@@ -1,17 +1,17 @@
-uuid: 5dea4643-8351-4858-bfea-ac54c3487531
+uuid: 2109616b-cd17-427a-8670-4d1dc0823fde
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
   module:
     - system
   theme:
-    - bartik
+    - key_changes
 _core:
   default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
-id: bartik_tools
-theme: bartik
+id: key_changes_tools
+theme: key_changes
 region: sidebar_first
 weight: 0
 provider: null

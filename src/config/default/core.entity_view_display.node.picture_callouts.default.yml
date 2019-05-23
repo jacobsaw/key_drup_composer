@@ -1,0 +1,19 @@
+uuid: fd22f464-3033-40f2-a89f-6b04191ae498
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.picture_callouts
+  module:
+    - user
+id: node.picture_callouts.default
+targetEntityType: node
+bundle: picture_callouts
+mode: default
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

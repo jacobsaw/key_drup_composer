@@ -1,0 +1,22 @@
+uuid: c13d6089-1972-4fca-8911-2925641b0d8e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - key_changes
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: key_changes_help
+theme: key_changes
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

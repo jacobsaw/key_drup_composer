@@ -1,17 +1,17 @@
-uuid: 4dac985b-2653-49c2-b562-81266df8dcfd
+uuid: 8b0564ba-3a75-4179-be32-5c43ce7c1d30
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
   module:
     - system
   theme:
-    - bartik
+    - key_changes
 _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
-id: bartik_footer
-theme: bartik
+id: key_changes_footer
+theme: key_changes
 region: footer_fifth
 weight: 0
 provider: null

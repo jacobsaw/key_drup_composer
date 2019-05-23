@@ -1,0 +1,22 @@
+uuid: 501b100e-2409-4aef-81b5-84ae72d78926
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - key_changes
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: key_changes_breadcrumbs
+theme: key_changes
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

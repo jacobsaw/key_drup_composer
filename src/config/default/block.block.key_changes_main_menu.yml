@@ -1,4 +1,4 @@
-uuid: e9238022-9034-499c-a33e-16e877c6540f
+uuid: 7cc8d7a7-e295-4f2c-8f06-691ad3fe1c59
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - key_changes
 _core:
   default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
-id: bartik_main_menu
-theme: bartik
+id: key_changes_main_menu
+theme: key_changes
 region: primary_menu
 weight: 0
 provider: null
@@ -22,6 +22,6 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 1
+  depth: 0
   expand_all_items: false
 visibility: {  }

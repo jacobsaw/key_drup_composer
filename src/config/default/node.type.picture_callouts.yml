@@ -1,0 +1,18 @@
+uuid: 5a8d93e1-7924-4f3c-bf82-845766e18b3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Picture Callouts'
+type: picture_callouts
+description: 'Page which allows for uploading pictures with a prominent title and caption.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

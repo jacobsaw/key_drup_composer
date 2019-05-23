@@ -1,17 +1,17 @@
-uuid: b230f000-1512-497a-b927-eb77648ecbda
+uuid: 4c59fb86-49e8-405e-a1c4-7992ea0eb2b5
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
   module:
     - system
   theme:
-    - bartik
+    - key_changes
 _core:
   default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
-id: bartik_account_menu
-theme: bartik
+id: key_changes_account_menu
+theme: key_changes
 region: secondary_menu
 weight: 0
 provider: null

@@ -23,6 +23,16 @@ p {
     background-color: #262F3E;
 }
 
+.dropdown-item a {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+.dropdown-item a:hover {
+    color: #D84B68;
+}
+
 #block-key-changes-content {
     background-color: #262F3E;
     border-radius: 10px;

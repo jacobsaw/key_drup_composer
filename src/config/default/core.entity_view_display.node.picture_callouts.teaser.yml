@@ -1,0 +1,20 @@
+uuid: 98f440df-978c-470e-8921-f16acd39bef4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.picture_callouts
+  module:
+    - user
+id: node.picture_callouts.teaser
+targetEntityType: node
+bundle: picture_callouts
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
