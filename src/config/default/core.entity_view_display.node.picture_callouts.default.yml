@@ -3,14 +3,25 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.picture_callouts.field_pict
     - node.type.picture_callouts
   module:
+    - entity_reference_revisions
     - user
 id: node.picture_callouts.default
 targetEntityType: node
 bundle: picture_callouts
 mode: default
 content:
+  field_pict:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
   links:
     weight: 100
     settings: {  }

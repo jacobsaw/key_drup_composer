@@ -1,0 +1,9 @@
+uuid: ecff5cef-aa4e-466f-9104-920b7f5565e1
+langcode: en
+status: true
+dependencies: {  }
+id: picture_callout_item
+label: 'Picture Callout Item'
+icon_uuid: null
+description: 'Individual callouts for Picture Callout Pages'
+behavior_plugins: {  }

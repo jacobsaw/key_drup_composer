@@ -1,0 +1,31 @@
+uuid: 8e37772d-f640-4fc3-8dc2-17c9087d54de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pict
+    - node.type.picture_callouts
+    - paragraphs.paragraphs_type.picture_callout_item
+  module:
+    - entity_reference_revisions
+id: node.picture_callouts.field_pict
+field_name: field_pict
+entity_type: node
+bundle: picture_callouts
+label: 'Picture Callout Item'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      picture_callout_item: picture_callout_item
+    target_bundles_drag_drop:
+      picture_callout_item:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions
