@@ -54,8 +54,28 @@ hr.featurette-divider {
     border-top: 1px solid #eee;
 }
 
-.row.callout {
+.row.callout, .row.simple-callout {
     background-color: #262F3E;
+}
+
+.row.simple-callout .col-md-7 {
+    padding-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .reverse-first {
+        order: 1;
+    }
+    .reverse-last {
+        order: 2;
+    }
+}
+
+.simple-callout blockquote p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 20px;
 }
 
 .callout h2 {
