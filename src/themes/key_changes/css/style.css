@@ -82,7 +82,7 @@ hr.featurette-divider {
     background-color: #262F3E;
 }
 
-.row.simple-callout .col-md-7 {
+.row.simple-callout .col-md-7, .row.callout .col-md-7 {
     padding-top: 10px;
 }
 
