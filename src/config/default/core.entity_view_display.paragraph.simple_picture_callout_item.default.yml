@@ -1,0 +1,33 @@
+uuid: 2b1d3894-ea10-447c-b8ee-fbdd5c8d5d72
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.simple_picture_callout_item.field_image
+    - field.field.paragraph.simple_picture_callout_item.field_text
+    - paragraphs.paragraphs_type.simple_picture_callout_item
+  module:
+    - image
+    - text
+id: paragraph.simple_picture_callout_item.default
+targetEntityType: paragraph
+bundle: simple_picture_callout_item
+mode: default
+content:
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_text:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

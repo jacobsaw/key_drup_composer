@@ -1,0 +1,20 @@
+uuid: 587ec872-3074-40f5-a8e8-3b5b04e4bbff
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.unformatted_picture_callout
+  module:
+    - user
+id: node.unformatted_picture_callout.teaser
+targetEntityType: node
+bundle: unformatted_picture_callout
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

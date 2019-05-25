@@ -1,0 +1,30 @@
+uuid: a5343143-2490-4fed-9f31-cf1346cf9d62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.unformatted_picture_callout.field_simple_picture_callout
+    - node.type.unformatted_picture_callout
+  module:
+    - entity_reference_revisions
+    - user
+id: node.unformatted_picture_callout.default
+targetEntityType: node
+bundle: unformatted_picture_callout
+mode: default
+content:
+  field_simple_picture_callout:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

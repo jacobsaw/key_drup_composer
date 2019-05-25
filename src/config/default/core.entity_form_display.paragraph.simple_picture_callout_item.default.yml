@@ -1,0 +1,36 @@
+uuid: aa368a9c-83f1-481c-8cf1-3c604492f1be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.simple_picture_callout_item.field_image
+    - field.field.paragraph.simple_picture_callout_item.field_text
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.simple_picture_callout_item
+  module:
+    - image
+    - text
+id: paragraph.simple_picture_callout_item.default
+targetEntityType: paragraph
+bundle: simple_picture_callout_item
+mode: default
+content:
+  field_image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_text:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

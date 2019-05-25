@@ -1,0 +1,9 @@
+uuid: c2f098d9-c0b0-4f86-8ff1-270adf9100d3
+langcode: en
+status: true
+dependencies: {  }
+id: simple_picture_callout_item
+label: 'Simple Picture Callout Item'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

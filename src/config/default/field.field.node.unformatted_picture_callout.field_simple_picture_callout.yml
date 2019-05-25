@@ -1,0 +1,34 @@
+uuid: 78ac5605-ff66-40e7-9580-2f65adea10cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_simple_picture_callout
+    - node.type.unformatted_picture_callout
+    - paragraphs.paragraphs_type.simple_picture_callout_item
+  module:
+    - entity_reference_revisions
+id: node.unformatted_picture_callout.field_simple_picture_callout
+field_name: field_simple_picture_callout
+entity_type: node
+bundle: unformatted_picture_callout
+label: 'Simple Picture Callout Item'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      simple_picture_callout_item: simple_picture_callout_item
+    target_bundles_drag_drop:
+      picture_callout_item:
+        weight: 3
+        enabled: false
+      simple_picture_callout_item:
+        enabled: true
+        weight: 4
+field_type: entity_reference_revisions
