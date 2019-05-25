@@ -1,0 +1,7 @@
+uuid: ad2b1de8-d5bd-4d4c-9923-4d8df16d81c5
+langcode: en
+status: false
+dependencies: {  }
+formId: node_picture_callouts_form
+captchaType: default
+label: null
