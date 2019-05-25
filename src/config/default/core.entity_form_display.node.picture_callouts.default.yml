@@ -3,33 +3,41 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.picture_callouts.field_pict
+    - field.field.node.picture_callouts.body
+    - field.field.node.picture_callouts.field_image
+    - image.style.thumbnail
     - node.type.picture_callouts
   module:
-    - paragraphs
+    - image
     - path
+    - text
 id: node.picture_callouts.default
 targetEntityType: node
 bundle: picture_callouts
 mode: default
 content:
+  body:
+    weight: 122
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_pict:
-    type: entity_reference_paragraphs
+  field_image:
     weight: 121
     settings:
-      title: Paragraph
-      title_plural: Paragraphs
-      edit_mode: open
-      add_mode: dropdown
-      form_display_mode: default
-      default_paragraph_type: ''
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
+    type: image_image
     region: content
   path:
     type: path

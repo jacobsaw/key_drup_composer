@@ -1,24 +1,24 @@
-uuid: 21952c22-f704-47b8-a2f8-5f1daea87c3a
+uuid: 71ccabd6-d7b3-45ae-91bb-809bee03d418
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_image
-    - paragraphs.paragraphs_type.picture_callout_item
+    - field.storage.node.field_image
+    - node.type.picture_callouts
   module:
     - image
-id: paragraph.picture_callout_item.field_image
+id: node.picture_callouts.field_image
 field_name: field_image
-entity_type: paragraph
-bundle: picture_callout_item
+entity_type: node
+bundle: picture_callouts
 label: Image
-description: 'Image for callout'
+description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: callout-images
+  file_directory: picture_callout_item
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
   max_resolution: ''

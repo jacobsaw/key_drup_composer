@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: 'Picture Callouts'
 type: picture_callouts
-description: 'Page which allows for uploading pictures with a prominent title and caption.'
+description: 'Individual picture callouts with a prominent title and caption.'
 help: ''
 new_revision: true
 preview_mode: 1

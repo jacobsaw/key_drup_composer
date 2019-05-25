@@ -1,0 +1,22 @@
+uuid: fa50afba-8476-4061-8344-131bbbc6781c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.picture_callouts
+  module:
+    - text
+id: node.picture_callouts.body
+field_name: body
+entity_type: node
+bundle: picture_callouts
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

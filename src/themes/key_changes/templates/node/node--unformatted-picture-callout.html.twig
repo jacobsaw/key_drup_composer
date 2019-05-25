@@ -92,6 +92,9 @@
           {% if count is not odd%}
               {% set image_order = ' reverse-last' %}
               {% set content_order = ' reverse-first' %}
+          {% else %}
+              {% set image_order = '' %}
+              {% set content_order = '' %}
           {% endif %}
             <div class="col-md-5{{ image_order }}">
                 <img class="img-fluid" src="{{file_url(node.field_simple_picture_callout[i].entity.field_image.entity.uri.value)}}" alt="{{ node.field_pict[i].entity.field_image[0].alt }}">

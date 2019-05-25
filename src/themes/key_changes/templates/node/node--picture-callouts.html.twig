@@ -72,7 +72,6 @@
     'clearfix',
   ]
 %}
-<hr class="featurette-divider">
 <article{{ attributes.addClass(classes) }}>
   <header>
     {{ title_prefix }}
@@ -84,26 +83,13 @@
     {{ title_suffix }}
   </header>
   <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
-      {% set count = 0 %}
-    {% for i, value in content.field_pict %}
-        {% if node.field_pict[i].entity.field_title.value  %}
-            {% set count = count + 1 %}
       <div class="row callout">
-          {% if count is not odd%}
-              {% set image_order = ' reverse-last' %}
-              {% set content_order = ' reverse-first' %}
-          {% endif %}
-            <div class="col-md-5{{ image_order }}">
-                <img class="img-fluid" src="{{file_url(node.field_pict[i].entity.field_image.entity.uri.value)}}" alt="{{ node.field_pict[i].entity.field_image[0].alt }}">
+            <div class="col-md-5">
+                <img class="img-fluid" src="{{file_url(node.field_image.entity.fileuri)}}" alt="{{ node.field_image.0.alt }}">
             </div>
-            <div class="col-md-7{{ content_order }}">
-                <h2>{{ node.field_pict[i].entity.field_title.value }}</h2>
-                <p>{{ node.field_pict[i].entity.field_description.value }}</p>
-                <a href="{{ node.field_pict[i].entity.field_link.value }}"> {{ node.field_pict[i].entity.field_link[0].title }}</a>
+            <div class="col-md-7">
+                {{ content.body }}
             </div>
         </div>
-            <hr class="featurette-divider">
-        {% endif %}
-    {% endfor %}
   </div>
 </article>

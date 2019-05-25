@@ -19,6 +19,28 @@ p {
     font-weight: 400;
 }
 
+/* WYSIWYG embedded images. */
+img.align-left {
+    margin-right: 15px;
+}
+
+img.align-right {
+    margin-left: 15px;
+}
+
+/* Main Navigation */
+nav#block-key-changes-main-menu li a{
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-size: .9em;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+nav#block-key-changes-main-menu li a:hover {
+    color: #D84B68;
+}
+
 .dropdown-menu {
     background-color: #262F3E;
 }
@@ -47,6 +69,8 @@ article.node--type-page h2 {
     font-size: 24px;
 }
 
+/* Picture Callout Page */
+
 hr.featurette-divider {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -60,22 +84,6 @@ hr.featurette-divider {
 
 .row.simple-callout .col-md-7 {
     padding-top: 10px;
-}
-
-@media only screen and (min-width: 768px) {
-    .reverse-first {
-        order: 1;
-    }
-    .reverse-last {
-        order: 2;
-    }
-}
-
-.simple-callout blockquote p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 21px;
-    font-weight: 300;
-    margin-bottom: 20px;
 }
 
 .callout h2 {
@@ -104,6 +112,30 @@ hr.featurette-divider {
     text-decoration: none;
 }
 
+.simple-callout blockquote p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+/* Picture callout - only reverse order of even rows on Desktop. */
+@media only screen and (min-width: 768px) {
+    .reverse-first {
+        order: 1;
+    }
+    .reverse-last {
+        order: 2;
+    }
+}
+
+/* Remove offset on mobile for Basic Pages. */
+@media only screen and (max-width: 768px) {
+    .offset-2 {
+        margin-left: 0px;
+    }
+}
+
 .content-page-slogan {
     color: #FFF;
     font-family: 'Raleway', sans-serif;
@@ -121,16 +153,7 @@ hr.featurette-divider {
     font-weight: 800;
 }
 
-nav#block-key-changes-main-menu li a{
-    color:white;
-    font-family: 'Raleway', sans-serif;
-    font-size: .9em;
-    font-weight: 400;
-}
-
-nav#block-key-changes-main-menu li a:hover {
-    color: #D84B68;
-}
+/* Home Page */
 
 .front-page {
     color:white;
