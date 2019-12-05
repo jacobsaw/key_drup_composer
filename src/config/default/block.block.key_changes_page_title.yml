@@ -14,7 +14,7 @@ provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Page title'
+  label: 'AUTHOR of the series "Key Changes: Refreshing Your Music Program" in the "Tools for Educators" Series'
   provider: core
   label_display: '0'
 visibility: {  }
