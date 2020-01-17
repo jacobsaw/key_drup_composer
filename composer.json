@@ -91,6 +91,11 @@
                 ".editorconfig": "../.editorconfig",
                 ".gitattributes": "../.gitattributes"
             }
-        }
+        },
+	"patches": {
+            "drupal/captcha": {
+                "Captcha Session ID broken with cacheable captcha backends": "https://www.drupal.org/files/issues/2019-12-11/3089263-24.captcha.Captcha-Session-ID-broken-with-cacheable-captcha-backends.patch"
+	    }
+	}
     }
 }
