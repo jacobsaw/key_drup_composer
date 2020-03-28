@@ -2,6 +2,8 @@ uuid: b36c8fa8-20ad-4b87-a019-487cb11f3aec
 langcode: en
 status: true
 dependencies:
+  module:
+    - node
   theme:
     - key_changes
 _core:
@@ -17,4 +19,11 @@ settings:
   label: 'AUTHOR of the series "Key Changes: Refreshing Your Music Program" in the "Tools for Educators" Series'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
